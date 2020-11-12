@@ -34,8 +34,12 @@ nav li a:hover{
 }
 
 .banner {
-  background-size: cover;
-  background-position: center; 
+  padding: 0px;
+  text-align: center;
+  background-size: auto; 
+  background-position: center;
+  
+
 
 }
 /* Main Section */
