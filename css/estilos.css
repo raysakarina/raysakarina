@@ -153,7 +153,8 @@ nav li a:hover{
 }
 
 .contenedor-form input[type="text"],
-.contenedor-form input[type="password"]{
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"]{
   text-align: center;
   outline: none;
   display: block;
@@ -191,6 +192,7 @@ nav li a:hover{
 
 .contenedor-form .reset-password {
   text-align: center;
+  color: #373a40;
   padding: 15px 0;
   width: 100%;
   cursor: pointer;
@@ -229,3 +231,24 @@ nav li a:hover{
   border-bottom-style: solid;
   border-left-style: solid;
 }
+/*Estilo de frases*/
+.contenedor-form a{
+  text-align: center;
+  background: #373a40;
+  color: #ffffff;
+  border: none;
+  width: 90%;
+  padding: 10px 50px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal; 
+  margin: 10px 10px 10px 30px;
+  cursor: pointer; 
+}
+
+.contenedor-form a:hover{
+  background-color: #19D3DA;
+}
+
