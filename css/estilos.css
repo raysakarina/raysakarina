@@ -3,6 +3,7 @@ html,body{
   margin:0px;
   font-size: 16px;
   font-family: Helvetica;
+  background:  #373a40;
 }
 
 nav{
@@ -67,6 +68,15 @@ nav li a:hover{
   box-shadow: 0 0 2px grey;
 }
 
+.blog .content h1 a{
+  color: #ffffff;
+}
+
+
+.blog .content h1 a:hover{
+  color: #19D3DA;
+}
+
 .img_content{
   text-align: center; 
   height: auto;
@@ -94,7 +104,7 @@ nav li a:hover{
 }
 
 .cuerpoformulario1{
-  background-color: black;
+  background-color: #373a40;
   background-attachment: fixed;
   font-family: Helvetica;
 }
@@ -171,7 +181,7 @@ nav li a:hover{
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal; 
-  margin: 0 0 20px 0;
+  margin: 10px 0 10px 0;
   cursor: pointer; 
 }
 
@@ -188,4 +198,34 @@ nav li a:hover{
 
 .contenedor-form .reset-password .a: hover{
   color: #19D3DA;
+}
+
+/*Estilo enviar*/
+.contenedor-enviar{
+  background-color: #EEEEEE;
+  padding: 10px;
+  color: #000000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-enviar li a{
+  color: #373a40;
+  text-decoration: none;
+}
+
+.contenedor-enviar li a:hover{
+  color: #19D3DA;
+}
+
+
+/*Estilo datos personales*/
+.datospersonales{
+  padding: 10px;
+  margin-top: 10px;
+  border-color: #19D3DA;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
 }
