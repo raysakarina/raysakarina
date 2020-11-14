@@ -198,7 +198,7 @@ nav li a:hover{
   cursor: pointer;
 }
 
-.contenedor-form .reset-password .a: hover{
+.contenedor-form .reset-password a: hover{
   color: #19D3DA;
 }
 
@@ -232,7 +232,7 @@ nav li a:hover{
   border-left-style: solid;
 }
 /*Estilo de frases*/
-.contenedor-form a{
+.contenedor-form .mail a{
   text-align: center;
   background: #373a40;
   color: #ffffff;
@@ -245,10 +245,10 @@ nav li a:hover{
   font-size: 14px;
   font-weight: normal; 
   margin: 10px 10px 10px 30px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.contenedor-form a:hover{
+.contenedor-form .mail a:hover{
   background-color: #19D3DA;
 }
 
