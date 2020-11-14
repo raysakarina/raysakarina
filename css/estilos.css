@@ -190,7 +190,7 @@ nav li a:hover{
   background: #19D3DA;
 }
 
-.contenedor-form .reset-password {
+.contenedor-form .reset-password a {
   text-align: center;
   color: #373a40;
   padding: 15px 0;
@@ -248,7 +248,28 @@ nav li a:hover{
   cursor: pointer;
 }
 
+/*Pendiente el ajuste del ultimo
+redireccionador se sale del contenedor padre
+No me gusta come se ve*/
+
 .contenedor-form .mail a:hover{
   background-color: #19D3DA;
 }
 
+/*Estilo grilla normal*/
+.contenedor-form .egt{
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+
+.contenedor-form .egt tr{
+  background-color: #19D3DA;
+  border: 1px;
+  color: #373a40; 
+}
+  
+.contenedor-form .egt td{
+border: solid #19D3DA;
+color: #373a40;
+}
