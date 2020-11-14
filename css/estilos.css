@@ -277,7 +277,14 @@ color: #373a40;
 /*Estilo grilla avanzada*/
 .contenedor-form .egt a{
   color: #FFFFFF;
+}
 
 .contenedor-form .egt a{
   color: #373a40;  
+}
+
+/*Estilo Lenguajes*/
+.content p{
+  font-size: 14px;
+  text-align: justify;
 }
