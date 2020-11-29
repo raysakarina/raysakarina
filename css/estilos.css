@@ -15,6 +15,17 @@ nav{
   align-items: center;
 }
 
+.redes{
+  padding: 2px;
+  background-color: white;
+  text-align: right;
+}
+
+.redes a{
+  size: auto;
+  padding: 1%;
+}
+
 nav ul{
   display: flex;
 }
@@ -83,6 +94,13 @@ nav li a:hover{
   width: auto;
   
 }
+
+.hv{
+  background-color: #373a40;
+  padding: 10px;
+}
+
+
 
 /*Estilo Programación*/
 .titulo{
