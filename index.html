@@ -10,6 +10,7 @@
         <TITLE>raysakarina</TITLE>
     </HEAD>	 
     <BODY bgcolor="#000000" text="#FFFFFF" link="#FFFFFF" vlink="#FF9933" alink="#FFFF00">
+        
         <aside class="banner">
             <img src="imagenes/Banner.png" />
         </aside>
@@ -24,38 +25,81 @@
                     <li><a href="#">VARIOS</a></li>
                 </ul>
         </nav>
-                
-           
-    <!--Main section-->
-    <div class = "main_section">
-        <h1>
+        
+
+        <section id = "principal">
+            <section id = "publicaciones">
+                <article class = "post">
+                    <a href="#" class="enlace-post">
+                        <h2 class = "titulo-post">Sobre los lenguajes de programación</h2>
+                    </a>
+                    <img src = "imagenes/Blog1.png" class = "img-post">
+                    <p>
+                        <strong>Por: </strong><span class="datos-publiaciones">raysakarina</span>
+                        &nbsp;&nbsp; 
+                        <strong>Fecha: </strong><span class="datos-publiaciones">Martes 1 de diciembre de 2020</span>
+                        
+                    </p>
+
+                    <p class = "parrafo-post" style= "text-align: justify">
+                        Lorem Ipsum es simplemente el texto de relleno de las 
+                        imprentas y archivos de texto. Lorem Ipsum ha sido el 
+                        texto de relleno estándar de las industrias desde el año 
+                        1500, cuando un impresor (N. del T. persona que se dedica
+                         a la imprenta) desconocido usó una galería de textos y 
+                         los mezcló de tal manera que logró hacer un libro de textos
+                          especimen.
+                    </p>
+
+                    <a href="#" class="leer-mas">Leer más</a>&nbsp;&nbsp; 
+                    <span class="num-comentarios"> n comentarios</span>
+                </article>
+
+
+                <div id = "paginacion">
+                    <p>Anteriores publicaciones &nbsp;&nbsp; <a href="#" class="enlace-paginacion">Siguientes publicaciones</a> </p>
+
+
+                </div>
+
+
+
+            </section>
+            <section id = "sidebar">
+                <section id = "buscar">
+                    <h2 class="encabezado-sidebar">Buscar</h2>
+                    <form>
+                        <input type="text" name="buscar" placeholder="buscar">
+                        <button class = "boton">Ok</button>
+                    </form>
+
+                </section>
+
+                <section id = "etiquetas">
+                    <h2 class="encabezado-sidebar">Etiquetas</h2>
+
+                    <a href="#" class="enlace-sidebar">Lenguajes de programación</a>
+                    
+                </section>
+
+                <section id = "ultimas-entradas">
+                    <h2 class="encabezado-sidebar">Ultimos posts</h2>
+
+                    <a href="#" class="enlace-sidebar">Lenguajes de programación</a>
+                        <h4>Titulo</h4>
+                        <p>Este es el resumen mini del articulo</p>
+                                  
+                </section>
             
-        </h1>
-    </div>
-    <div class="fondo">
-        <div class="blog">
-            <div class="content">
-                <div class="img_content">
-                <img src="imagenes/Blog1.png" alt="">
-                </div>
-                <h1>Lenguajes de programación</h1>
-                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-            </div>
-        </div>
 
-        <div class="blog">
-            <div class="content">
-                <div class="img_content">
-                <img src="imagenes/Blog2.png" alt="">
-                </div>
-                <h1>Pentesting</h1>
-                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-            </div>
-        </div>
-
-    </div>
+            </section>
 
 
+        </section>
+
+
+
+  
 
         <script src = "scripts/script.js"></script>
     </BODY>	 

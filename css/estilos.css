@@ -50,15 +50,13 @@ nav li a:hover{
   text-align: center;
   background-size: auto; 
   background-position: center;
-
-
 }
+
 /* Main Section */
 .main_section{
   padding: 0;
   text-align: center;
   background-color: #EEEEEE;
-
 }
 
 .fondo {
@@ -68,9 +66,9 @@ nav li a:hover{
   padding: 15px;  
   display: flex;
 }
-.blog{
-  padding: 10px;
 
+.blog{
+  padding: 10px; 
 }
 
 .blog .content{
@@ -82,7 +80,6 @@ nav li a:hover{
 .blog .content h1 a{
   color: #ffffff;
 }
-
 
 .blog .content h1 a:hover{
   color: #19D3DA;
@@ -98,6 +95,162 @@ nav li a:hover{
 .hv{
   background-color: #373a40;
   padding: 10px;
+}
+
+/*Estilo del blog*/
+ #principal {
+   width: 95%;
+   height: auto; overflow: hidden;
+   border: 1px;
+   margin: 10px;
+ }
+
+ #publicaciones {
+  width: 70%;
+  height: auto; overflow: hidden;
+  border: 1px;
+  margin-top: 25px;
+  float: left;
+ }
+
+ .post {
+   width: 95%;
+   height: auto; overflow: hidden;
+   padding: 7px;
+   border-left-style: solid;
+   border-left-width: 5px;
+   border-left-color: #19D3DA;
+   border-radius: 10px;
+   box-shadow: 0px 0px 15px #FFFFFF;
+   margin-bottom: 25px;
+ }
+
+ .enlace-post {
+   text-decoration: none;
+ }
+
+ #publicaciones a .titulo-post{
+   color: #ffffff;
+   font-size: 22px;
+ }
+
+ #publicaciones a .titulo-post:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .img-post{
+  width: 180px;
+  height: 150px;
+  float: left;
+  margin: 7px 7px 7px 2px;
+  padding: 5px;
+  border: 1px solid #19D3Da;
+}
+
+#publicaciones .leer-mas{
+  background: #FFF;
+  color: #373a40;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px
+}
+
+#publicaciones .num-comentarios{
+  background: #FFF;
+  color: #373a40;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px
+}
+#publicaciones .num-comentarios:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .leer-mas:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .parrafo-post{
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#publicaciones .enlace-paginacion{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#publicaciones .enlace-paginacion:hover{
+  color: #19D3DA;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  border 1px;
+  height: auto; overflow: hidden;
+  margin-top: 20px;
+}
+
+#buscar, #etiquetas, #ultimas-entradas{
+  width: 98%;
+  height: auto; overflow: hidden;
+  margin-bottom: 20px;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+form{
+  margin-top: 10px;
+}
+
+#buscar input[type = "text"]{
+  border: 1px;
+  box-shadow: 0px 0px 5px #CCC inset;
+  padding: 10px 4px;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+#buscar .boton{
+  border: 0px;
+  color:#373a40;
+  background: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#buscar .boton:hover{
+  color:#19D3DA;
+}
+
+.encabezado-sidebar{
+  width: 100%;
+  height: 35px;
+  background: #19D3DA;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.enlace-sidebar{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px;
+  padding: 10px 5px;
+  color: #fff;
+}
+
+.enlace-sidebar:hover{
+  color: #19d3da;
 }
 
 
