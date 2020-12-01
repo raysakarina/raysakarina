@@ -172,7 +172,7 @@ nav li a:hover{
    font-size: 22px;
  }
 
-#publicaciones a .titulo-post1{
+#publicaciones .post1 a .titulo-post1{
    color: #373a40;
    font-size: 22px;
  }
