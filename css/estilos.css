@@ -222,9 +222,15 @@ nav li a:hover{
  }
 
 #publicaciones .parrafo-post{
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   padding: 5px;
+}
+
+#publicaciones1 .parrafo-post{
+  font-size: 18px;
+  color: #373a40;
+  padding: 5px 45px 5px 45px;
 }
 
 #publicaciones .enlace-paginacion{
@@ -245,7 +251,7 @@ nav li a:hover{
 }
 
 #buscar, #etiquetas, #ultimas-entradas{
-  width: 98%;
+  width: 90%;
   height: auto; overflow: hidden;
   margin-bottom: 20px;
   color: #FFF;
@@ -294,6 +300,18 @@ form{
   border-bottom: 1px;
   padding: 10px 5px;
   color: #fff;
+}
+
+.etiquetas{
+  text-align: center;
+}
+.etiquetas .enlace-sidebar{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px;
+  padding: 1px;
+  color: #373a40;
 }
 
 .enlace-sidebar:hover{
