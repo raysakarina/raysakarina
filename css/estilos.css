@@ -156,6 +156,13 @@ nav li a:hover{
   margin-bottom: 25px;
 }
 
+.caja-comentarios{
+  background-color: #FFF;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
  .enlace-post {
    text-decoration: none;
  }
