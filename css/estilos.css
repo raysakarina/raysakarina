@@ -154,25 +154,34 @@ nav li a:hover{
   border-radius: 10px;
   box-shadow: 0px 0px 15px #FFFFFF;
   margin-bottom: 25px;
-}
-
-.caja-comentarios{
   background-color: #FFF;
-  width: auto;
-  height: auto;
-  padding: 5px;
+  color: #373a40;
+
 }
 
  .enlace-post {
    text-decoration: none;
  }
 
+ .enlace-post1 {
+  text-decoration: none;
+}
+
  #publicaciones a .titulo-post{
    color: #ffffff;
    font-size: 22px;
  }
 
+#publicaciones a .titulo-post1{
+   color: #373a40;
+   font-size: 22px;
+ }
+
  #publicaciones a .titulo-post:hover{
+  color: #19D3DA;
+ }
+
+ #publicaciones a .titulo-post1:hover{
   color: #19D3DA;
  }
 
