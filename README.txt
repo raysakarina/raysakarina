@@ -1,47 +1,35 @@
-
-TITLE: 
-24 News - 100% Fully Responsive Free HTML5 Bootstrap Template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Landed by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-CREDITS:
+A dark, slick, modern, responsive, adjective-drenched design built around an extremely
+dynamic landing page (scroll that mofo!). Inspired by Big Picture, another design
+of mine with a similarish feel/flow, only this time I took it waaaaaay further and
+actually made it multipurpose (versus copping out and making it a one pager like I
+did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
+its Sass sources.
 
-Bootstrap
-http://getbootstrap.com/
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-jQuery
-http://jquery.com/
+(* = Not included)
 
-Modernizr
-http://modernizr.com/
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
-Google Fonts
-https://www.google.com/fonts/
+AJ
+aj@lkn.io | @ajlkn
 
-Font Awesome
-http://fontawesome.io
 
-animate.css
-http://daneden.me/animate
+Credits:
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
+	Icons:
+		Font Awesome (fontawesome.io)
 
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-Google Maps
-https://maps.google.com
-
-Demo Images:
-http://unsplash.com
-
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
