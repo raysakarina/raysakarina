@@ -1,0 +1,528 @@
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 16px;
+  font-family: Helvetica;
+  background:  #373a40;
+}
+
+nav{
+  display: flex;
+  background-color: #EEEEEE;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes{
+  padding: 2px;
+  background-color: white;
+  text-align: right;
+}
+
+.redes a{
+  size: auto;
+  padding: 1%;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: #373a40;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: #19D3DA;
+}
+
+.banner {
+  padding: 0px;
+  text-align: center;
+  background-size: auto; 
+  background-position: center;
+}
+
+/* Main Section */
+.main_section{
+  padding: 0;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+.fondo {
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center top;
+  padding: 15px;  
+  display: flex;
+}
+
+.blog{
+  padding: 10px;
+  width: 100%; 
+}
+
+.blog .content{
+  background-color: #373a40;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 0 2px grey;
+}
+
+.blog .content h1 a{
+  color: #ffffff;
+}
+
+.blog .content h1 a:hover{
+  color: #19D3DA;
+}
+
+.img_content{
+  text-align: center; 
+  height: auto;
+  width: auto;
+  
+}
+
+.hv{
+  background-color: #373a40;
+  padding: 10px;
+}
+
+/*Estilo del blog*/
+ #principal {
+   width: 90%;
+   height: auto; overflow: hidden;
+   border: 1px;
+   margin: 20px;
+ }
+
+ #principal1 {
+  width: 90%;
+  height: auto; overflow: hidden;
+  border: 1px;
+  margin: 20px;
+  text-align: center; 
+}
+
+ #publicaciones {
+  width: 65%;
+  height: auto; overflow: hidden;
+  border: 1px;
+  margin-top: 10px;
+  padding: 10px;
+  float: left;
+ }
+
+ #publicaciones1 {
+  width: 100%;
+  height: auto; overflow: hidden;
+  border: 1px;
+  margin-top: 10px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+ }
+
+ .post {
+   width: 95%;
+   height: auto; overflow: hidden;
+   padding: 7px;
+   border-left-style: solid;
+   border-left-width: 5px;
+   border-left-color: #19D3DA;
+   border-radius: 10px;
+   box-shadow: 0px 0px 15px #FFFFFF;
+   margin-bottom: 25px;
+ }
+
+ .post1 {
+  width: 95%;
+  height: auto; overflow: hidden;
+  padding: 7px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #19D3DA;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #FFFFFF;
+  margin-bottom: 25px;
+  background-color: #FFF;
+  color: #373a40;
+
+}
+
+ .enlace-post {
+   text-decoration: none;
+ }
+
+ .enlace-post1 {
+  text-decoration: none;
+}
+
+ #publicaciones a .titulo-post{
+   color: #ffffff;
+   font-size: 22px;
+ }
+
+#publicaciones .post1 a .titulo-post1{
+   color: #373a40;
+   font-size: 22px;
+ }
+
+ #publicaciones a .titulo-post:hover{
+  color: #19D3DA;
+ }
+
+ #publicaciones a .titulo-post1:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .img-post{
+  width: 280px;
+  height: 180px;
+  float: left;
+  margin: 7px 7px 7px 2px;
+  padding: 5px;
+  border: 1px solid #19D3Da;
+}
+
+#publicaciones .leer-mas{
+  background: #FFF;
+  color: #373a40;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px
+}
+
+#publicaciones .num-comentarios{
+  background: #FFF;
+  color: #373a40;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px
+}
+#publicaciones .num-comentarios:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .leer-mas:hover{
+  color: #19D3DA;
+ }
+
+#publicaciones .parrafo-post{
+  font-size: 18px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#publicaciones1 .parrafo-post{
+  font-size: 18px;
+  color: #373a40;
+  padding: 5px 45px 5px 45px;
+}
+
+#publicaciones .enlace-paginacion{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#publicaciones .enlace-paginacion:hover{
+  color: #19D3DA;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  border 1px;
+  height: auto; overflow: hidden;
+  margin-top: 20px;
+}
+
+#buscar, #etiquetas, #ultimas-entradas{
+  width: 90%;
+  height: auto; overflow: hidden;
+  margin-bottom: 20px;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+form{
+  margin-top: 10px;
+}
+
+#buscar input[type = "text"]{
+  border: 1px;
+  box-shadow: 0px 0px 5px #CCC inset;
+  padding: 10px 4px;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+#buscar .boton{
+  border: 0px;
+  color:#373a40;
+  background: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#buscar .boton:hover{
+  color:#19D3DA;
+}
+
+.encabezado-sidebar{
+  width: 100%;
+  height: 35px;
+  background: #19D3DA;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.enlace-sidebar{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px;
+  padding: 10px 5px;
+  color: #fff;
+}
+
+.etiquetas{
+  text-align: center;
+}
+.etiquetas .enlace-sidebar{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px;
+  padding: 1px;
+  color: #373a40;
+}
+
+.enlace-sidebar:hover{
+  color: #19d3da;
+}
+
+
+
+/*Estilo Programación*/
+.titulo{
+  background-color: #373a40;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 2px grey;
+}
+
+.logouis {
+  text-align: center;
+  display: block; 
+  max-width:230px; 
+  max-height:95px; 
+  width: auto; 
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cuerpoformulario1{
+  background-color: #373a40;
+  background-attachment: fixed;
+  font-family: Helvetica;
+}
+
+.contenedor-form{
+  /*position: relative;*/
+  text-align: center;
+  background: #EEEEEE;
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  color: #373a40;
+  border-radius: 5px;
+  
+}
+
+.contenedor-form .toggle{
+  /*position: rigth;*/
+  top: 7px;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;  
+  cursor: pointer;
+}
+
+.contenedor-form .toggle:hover {
+  color: #19D3DA;
+}
+
+.contenedor-form span{
+  letter-spacing: 1px;
+}
+
+.contenedor-form: :hover{
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.contenedor-form h2{
+  text-align: center;
+  margin: 0 0 28px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"]{
+  text-align: center;
+  outline: none;
+  display: block;
+  width: 94%;
+  padding: 10px 15px;
+  color: #373a40;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #19D3DA;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+.contenedor-form input[type="submit"]{
+  text-align: center;
+  background: #373a40;
+  color: #ffffff;
+  border: none;
+  width: 90%;
+  padding: 10px 0;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal; 
+  margin: 10px 0 10px 0;
+  cursor: pointer; 
+}
+
+.contenedor-form input[type="submit"]:hover {
+  background: #19D3DA;
+}
+
+.contenedor-form .reset-password a {
+  text-align: center;
+  color: #373a40;
+  padding: 15px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contenedor-form .reset-password a: hover{
+  color: #19D3DA;
+}
+
+/*Estilo enviar*/
+.contenedor-enviar{
+  background-color: #EEEEEE;
+  padding: 10px;
+  color: #000000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-enviar li a{
+  color: #373a40;
+  text-decoration: none;
+}
+
+.contenedor-enviar li a:hover{
+  color: #19D3DA;
+}
+
+
+/*Estilo datos personales*/
+.datospersonales{
+  padding: 10px;
+  margin-top: 10px;
+  border-color: #19D3DA;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+/*Estilo de frases*/
+.contenedor-form .mail a{
+  text-align: center;
+  background: #373a40;
+  color: #ffffff;
+  border: none;
+  width: 90%;
+  padding: 10px 50px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal; 
+  margin: 10px 10px 10px 30px;
+  cursor: pointer;
+}
+
+/*Pendiente el ajuste del ultimo
+redireccionador se sale del contenedor padre
+No me gusta come se ve*/
+
+.contenedor-form .mail a:hover{
+  background-color: #19D3DA;
+}
+
+/*Estilo grilla normal*/
+.contenedor-form .egt{
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+
+.contenedor-form .egt tr{
+  background-color: #19D3DA;
+  border: 1px;
+  color: #373a40; 
+}
+  
+.contenedor-form .egt td{
+border: solid #19D3DA;
+color: #373a40;
+}
+
+/*Estilo grilla avanzada*/
+.contenedor-form .egt a{
+  color: #FFFFFF;
+}
+
+.contenedor-form .egt a{
+  color: #373a40;  
+}
+
+/*Estilo Lenguajes*/
+.content p{
+  font-size: 14px;
+  text-align: justify;
+}
