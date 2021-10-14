@@ -78,11 +78,13 @@ hr{
 
 .product{
   padding: 20px;
-  margin-top: -300px;
+  margin-top: -400px;
 }
 
 .image-product{
   text-align: center;
+  width: 90%;
+  height: 90%;
 }
 
 .main_button{
@@ -123,6 +125,7 @@ hr{
 
 /* Beneficios */
 .beneficios{
+  text-align: center;
   padding: 10%;
   display: flex;
 }
