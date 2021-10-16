@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/mobile.css">
 
 
@@ -21,35 +22,66 @@
     </div>
     <div class="nav_options">
       <ul>
-        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="preguntas.html">Preguntas frecuentes</a></li>
         <li><a href="producto.html">Ver más</a></li>
       </ul>
     </div>
   </nav>
-
   <!-- Aquí acaba el navbar -->
   
   <!-- Aquí inicia la sección principal -->
-  <div class="main_section">
-    <h1>
-      El tejido no solo se hace con materiales tangibles, también se hace contigo, conmigo, entre todxs!
-      <br>
-      ¡Conoce nuestros productos!
-    </h1>
-  </div>
+  <br>
+  <br>
+  
   <div class="container">
-    <h1>Hola</h1>
-    <div class="row">+
-      <div class="col-2"> HOLA</div>
-      <div class="col-2"> HOLA</div>
-      <div class="col-2"> HOLA</div>
-      <div class="col-2"> HOLA</div>
-      <div class="col-2"> HOLA</div>
-      <div class="col-2"> HOLA</div>
+    <div class="row">
+      <div class="col-10">
+        <div class="modulo_pago">
+          <div class="modulo_pago_images">
+            <img src="images/manillavariosdiseños.jpg" alt="">
+          </div>
+          <h3>
+            Manilla
+          </h3>
+          <p>
+            Plasmamos tus gustos
+                       </p>
+           <p>
+            Manilla tejida en 11 lineas unisex, diseño en 6 colores con broche ajustable.
+            Costo: No importa la cantidad de colores.
+           </p>
+           <p>Costo: 10 US (Envio incluido)
+           </p>
+        </div>
+      </div>
     </div>
+      <div class="row">
+      <div class="col-10">
+        <div class="modulo_pago">
+          <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8L5SMD3JPT5Y" method="post">
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" placeholder="" name="name" class="data" required>
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="text" placeholder="" name="email" class="data" required>
+            <br>
+            <label for="phone">Teléfono</label>
+            <br>
+            <input type="text" placeholder="" name="phone" class="data" required>
+
+            <input type="submit" class="main_button" name="Enviar">
+          </form>
+        </div>
+      </div>
+    </div>
+
   </div>
-  
-  
+ 
+  <br>
+  <br>
   
 
   <nav>
